@@ -1,0 +1,125 @@
+.navbar-main-container {
+	height: 100vh;
+	width: 14vw;
+	padding: 16px 10px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* flex-shrink: 0; */
+	overflow: hidden;
+	background: var(--Secondary-Navbar, #1e2640);
+}
+.navbar-top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* gap: 24px; */
+	/* flex: 1 0 0; */
+}
+.navbar-top-company {
+	display: flex;
+	flex-direction: row;
+	width: 12vw;
+	align-items: center;
+	justify-content: normal;
+	gap: 12px;
+	padding-bottom: 24px;
+	/* overflow: hidden; */
+}
+.navbar-top-company-company_logo {
+	width: 39px;
+	height: 39px;
+	border-radius: 4px;
+}
+.navbar-top-company-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 500;
+	font-size: small;
+	width: 108px;
+}
+.navbar-top-company-details-name {
+	align-self: stretch;
+	padding-bottom: 4px;
+	color: #fff;
+	font-family: Inter;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px;
+}
+.navbar-top-company-details-underline {
+	opacity: 0.8;
+	align-self: stretch;
+	color: #fff;
+	font-family: Inter;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	text-decoration-line: underline;
+}
+.navbar-top-pages {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	padding-bottom: 16px;
+}
+.navbar-top-pages > div {
+	display: flex;
+	flex-direction: row;
+	width: 208px;
+	padding: 8px 16px;
+	align-items: flex-start;
+	gap: 12px;
+	border-radius: 4px;
+}
+.navbar-top-pages > div:hover {
+	background: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+}
+.navbar-top-pages > div > p {
+	color: var(--Black-100, #fff);
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px; /* 142.857% */
+	opacity: 0.8;
+	margin: 0px;
+}
+.navbar-bottom {
+	display: flex;
+	width: 192px;
+	padding: 6px 12px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 4px;
+	background: #353c53;
+}
+.navbar-bottom-elements {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.navbar-bottom-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2px;
+}
+.navbar-bottom-text > p {
+	color: var(--Black-100, #fff);
+	font-family: Inter;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	opacity: 0.8;
+}
